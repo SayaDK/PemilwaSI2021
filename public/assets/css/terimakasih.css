@@ -1,0 +1,64 @@
+html, body {
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(#F3E6F1, #DFE8F5);
+}
+
+.terimakasih{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10%;
+}
+
+.terimakasih img{
+    display: block;
+    margin: 80px auto;
+    width: 65%;
+    height: auto;
+}
+
+.terimakasih .btn{
+    width: 310px;
+    font-family: Merriweather;
+    color: white;
+    margin: 0.5rem 0;
+}
+
+.terimakasih h3{
+    font-family: Merriweather;
+}
+
+
+@media only screen and (max-width : 1224px) {
+    body{
+        position: relative;        
+
+    }
+    .terimakasih{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } 
+}
+
+@media only screen and (max-width : 768px) {
+    body{
+        position: relative;        
+
+    }
+    .terimakasih{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } 
+    
+    .terimakasih img{
+        display: none;
+    }
+}

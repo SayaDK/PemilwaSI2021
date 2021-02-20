@@ -1,0 +1,48 @@
+.container {
+    margin-top: 30px;
+    max-width: 81rem;
+}
+
+.btn-profile{
+    position: absolute;
+    bottom: -20px;
+    top: 70%;
+    left: 50%; 
+    transform: translate(-50%, 0%); 
+    max-width: 18.5rem;
+}
+.btn-profile h4 {
+    padding: 0 14px;
+    
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+.grid-calon{
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.tagline {
+    font-size: 15px;
+}
+.foto-calon{
+    position: relative;
+}
+
+.profileEMSI{
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.profileEMSI .row{
+    margin: 0 15rem;
+}
+
+.profileBPMSI {
+    margin-top: 130px;
+}
+
+

@@ -1,0 +1,45 @@
+body {
+	background-color: #F6F6FF;
+}
+.vote-judul {
+	margin: 50px 0;
+}
+.card-emsi {
+	position: relative;
+	height: 406px;
+	border-width: 0px;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+.card-bpmsi{
+	position: relative;
+	width: 13rem;
+	height: 400px;
+	border-width: 0px;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+.card button {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	border-radius: 5rem;
+	border-width: 0;
+	font-weight: bold;
+	color: white;
+	padding: auto;
+	background-color: #B0D2F2;
+}
+.modal-content{
+	background-color: #D6E8FE;
+}
+.modal-footer button{
+	width: 200px; 
+	margin: 2px auto; 
+	font-weight: bold;
+	color: black;
+}
+.modal-footer button:hover {
+	color: black;
+}

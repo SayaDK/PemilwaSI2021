@@ -1,0 +1,52 @@
+.bg-atas {
+	z-index: -1;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.bg-bawah {
+	z-index: -1;
+	padding: 0;
+	position: absolute;
+	float: left;
+	bottom: 0;
+}
+.kotak {
+	width: 100%;
+	margin: auto;
+	margin-top: 11rem;
+	max-width: 350px;
+	min-height: 300px;
+	position: relative;
+	/*box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+	border-radius: 1rem;*/
+}
+
+.kotak>.formStyle {
+	position: relative;
+	/*margin: 0 10% 0 10%;*/
+	padding-top: 5%;
+}
+
+.kotak>.formStyle>.form-group>input {
+	height: auto;
+	border-radius: 2rem;
+	position: relative;
+	margin-bottom: 1.5rem;
+}
+
+.kotak>.formStyle>.btn {
+	height: 45px;
+	font-size: 100%;
+	border-radius: 5rem;
+	border-width: 0;
+	letter-spacing: .1rem;
+	font-weight: bold;
+	padding: auto;
+	transition: all 0.2s;
+	background-color: #B0D2F2;
+}
+.kotak>.formStyle>.btn:hover {
+	background-color: #9CBDE1;
+}
